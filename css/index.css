@@ -37,14 +37,26 @@ h2 {
   background-color: #404040;
 }
 
-.cta-small {
+/*.cta-small {
   text-transform: uppercase;
+  color: #000000;
   font-size: 0.8em;
   padding: 10px 30px;
   margin: 5px;
+  background-color: rgb(237, 237, 237);
   border-color: #ffff;
-  border: 1px solid;
+  border: 0.5px solid;
   text-align: center;
+} */
+
+.cta-game {
+  color: #ffffff;
+  padding: 10px 100px; 
+  /*position: relative;*/
+  left: 130px;
+  position: relative;
+  
+  border: 1px solid;
 }
 
 .cta-small-viewmore {
@@ -58,8 +70,9 @@ h2 {
   float: right;
 }
 
-.cta-small:hover {
-  color: #f06332;
+.cta-game:hover {
+  background-color: #f06332;
+  border: #f06332;
 }
 
 /* Navigation */
@@ -190,11 +203,13 @@ h2 {
 
 .search {
   font-size: 1em;
-  border: 1px solid;
+  border: 0.5px solid;
   border-color: #ffff;
-  border-radius: 50px;
-  padding: 5px 40px;
+  border-radius: 0px;
+  padding: 5px 70px;
   margin: 20px;
+  
+  
 }
 
 .fa-search {
@@ -223,7 +238,7 @@ h2 {
 .covergame {
   position: absolute;
   top: 400px;
-  left: 800px;
+  left: 1000px;
   text-align: center;
 }
 
@@ -254,15 +269,17 @@ h2 {
   width: 100%;
 }
 
-.hot-now_products a {
+.product-name {
   text-align: left;
   padding: 10px 30px;
+  font-size: 15px;
 }
 
 .hot-now_products p {
-  text-align: right;
+  text-align: left;
   color: #ffff;
-  margin: 10px 40px;
+  margin: 10px 30px;
+  font-size: 13px;
 }
 
 /* DISCOVER */
@@ -275,7 +292,8 @@ h2 {
 }
 
 .discover-container {
-  grid-column: 1;
+  /*grid-column: 1;
+  /*height: 471.5px;*/
 }
 
 .discover-container img {
@@ -284,7 +302,7 @@ h2 {
 
 .discover_gametext {
   background-color: #707070;
-  text-align: left;
+  text-align: center;
 }
 
 .game-header {
@@ -292,17 +310,29 @@ h2 {
   text-transform: uppercase;
   position: relative;
   padding: 10px;
+  color: #ffffff;
 }
 
 .info-product {
   font-size: 1.2em;
   padding: 20px;
   order: 2;
+  color: #ffffff;
 }
 
-.discover_gametext a {
-  flex-basis: 500px;
-  text-align: left;
+
+.discover_cta-small {
+  color: #ffffff;
+  padding: 20px 100px; 
+  position: relative;
+  left: 20px;
+  top: 50px;
+  border: 1px solid;
+}
+
+.discover_cta-small:hover {
+  background-color: #f06332;
+  border: #f06332;
 }
 
 /* NEWS */
@@ -323,13 +353,7 @@ h2 {
   width: 100%;
 }
 
-.news a {
-  text-align: center;
-  padding: 10px 10px;
-  justify-self: end;
-  grid-column: 4;
-  grid-row: 1;
-}
+
 
 .news_products p {
   text-align: right;
