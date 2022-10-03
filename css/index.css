@@ -207,9 +207,12 @@ h2 {
   border-color: #ffff;
   border-radius: 0px;
   padding: 5px 70px;
-  margin: 20px;
-  
-  
+  margin: 20px;  
+}
+
+.search:hover{
+  background-color: #ffff;
+  opacity: 80%;
 }
 
 .fa-search {
@@ -222,7 +225,7 @@ h2 {
 }
 
 .back-search :hover {
-  color: #f06332;
+  color: #282828;
 }
 
 /* Homepage HEADER */
@@ -280,6 +283,10 @@ h2 {
   color: #ffff;
   margin: 10px 30px;
   font-size: 13px;
+}
+
+.hot-now_products:hover{
+  background: hsla(203, 14%, 44%, 0.309)
 }
 
 /* DISCOVER */
@@ -353,12 +360,22 @@ h2 {
   width: 100%;
 }
 
+.news_products:hover{
+  background: hsla(203, 14%, 44%, 0.309)
+}
+
 
 
 .news_products p {
-  text-align: right;
+  text-align: left;
   color: #ffff;
-  margin: 10px 40px;
+  margin: 10px 30px;
+  font-size: 13px;
+}
+
+.cta-small-viewmore:hover{
+  background: #f06332;
+  border: #f06332;
 }
 
 /* PRE-PURCHASE */
@@ -379,18 +396,15 @@ h2 {
   width: 100%;
 }
 
-.boxes_pre-purchase a {
-  text-align: center;
-  padding: 10px 10px;
-  justify-self: end;
-  grid-column: 4;
-  grid-row: 1;
+.boxes_pre-purchase p {
+  text-align: left;
+  color: #ffff;
+  margin: 10px 30px;
+  font-size: 13px;
 }
 
-.boxes_pre-purchase p {
-  text-align: right;
-  color: #ffff;
-  margin: 10px 40px;
+.pre-purchase_products:hover{
+  background: hsla(203, 14%, 44%, 0.309)
 }
 
 /* SELL YOUR GAME */
@@ -409,9 +423,10 @@ h2 {
   width: 100%;
 }
 
+
 .sell_gametext {
   background-color: #707070;
-  text-align: left;
+  text-align: center;
 }
 
 .game-header {
@@ -419,17 +434,28 @@ h2 {
   text-transform: uppercase;
   position: relative;
   padding: 10px;
+  color: #ffffff;
 }
 
 .info-product {
   font-size: 1.2em;
   padding: 20px;
   order: 2;
+  color: #ffffff;
 }
 
-.sell_gametext a {
-  flex-basis: 500px;
-  text-align: left;
+.sell_cta-small {
+  color: #ffffff;
+  padding: 20px 100px; 
+  position: relative;
+  left: 20px;
+  top: 50px;
+  border: 1px solid;
+}
+
+.sell_cta-small:hover {
+  background-color: #f06332;
+  border: #f06332;
 }
 
 /* footer */
