@@ -238,7 +238,7 @@ h2 {
 .cart {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -100%;
   width: 360px;
   min-height: 100vh;
   padding: 20px;
@@ -330,6 +330,20 @@ margin-top: 2rem;
   background: #b9b8b8;
 }
 
+.cart-remove {
+  color: #f06332;
+  font-size:1rem;
+}
+
+.close-cart {
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  font-size: 1rem;
+  color: #000000;
+  cursor: pointer;
+}
+
 /* TOP CONTAINER */
 
 .top-container {
@@ -386,19 +400,19 @@ margin-top: 2rem;
   color: #ffff;
 }
 
-/*.cta-gameboxes {
-  display: flex;
-  flex-basis: 100px;
-  justify-content: center;
-}*/
 
 .box:hover{
-  background: hsla(203, 14%, 44%, 0.309)
+  background: hsla(205, 18%, 67%, 0.309);
+  border: 1px solid #626262;
+  transition: 0.4s;
 }
 
 .fa-bag-shopping {
   color: #f06332;
   font-size: 20px;
+  /*position: absolute;
+  bottom: 0;
+  right: 0;*/
 }
 
 /* footer */
