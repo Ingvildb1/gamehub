@@ -15,13 +15,13 @@ a {
   text-decoration: none;
 }
 
-/*h2 {
+h2 {
   color: #ffff;
   font-size: 1.3em;
   font-weight: 900;
   grid-column: -1/1;
   margin: 10px 10px 10px 10px;
-}*/
+}
 
 .cta-big {
   color: white;
@@ -37,14 +37,15 @@ a {
   background-color: #404040;
 }
 
-.cta-small {
-  text-transform: uppercase;
-  font-size: 0.8em;
-  padding: 10px 30px;
-  margin: 5px;
-  border-color: #ffff;
+
+.cta-game {
+  color: #ffffff;
+  padding: 10px 100px; 
+  /*position: relative;*/
+  left: 130px;
+  position: relative;
+  
   border: 1px solid;
-  text-align: center;
 }
 
 .cta-small-viewmore {
@@ -58,8 +59,9 @@ a {
   float: right;
 }
 
-.cta-small:hover {
-  color: #f06332;
+.cta-game:hover {
+  background-color: #f06332;
+  border: #f06332;
 }
 
 /* Navigation */
@@ -188,43 +190,35 @@ a {
   align-items: center;
 }
 
-.search-btn {
+.search {
   font-size: 1em;
-  border: 1px solid;
+  border: 0.5px solid;
   border-color: #ffff;
-  border-radius: 50px;
-  padding: 5px 40px;
-  margin: 0px 20px 30px 0px;
+  border-radius: 0px;
+  padding: 5px 70px;
+  margin: 20px;  
 }
 
-.fa-chevron-left {
-  font-size: 2em;
+.search:hover{
+  background-color: #ffff;
+  opacity: 80%;
 }
 
 .fa-search {
   margin: 10px;
 }
 
-.back {
-  display: grid;
-  justify-content: left;
-  padding: 10px;
-}
-
-.back :hover {
-  color: #f06332;
-}
-
-.search {
+.back-search {
   display: grid;
   justify-content: right;
 }
 
 .back-search :hover {
-  color: #f06332;
+  color: #282828;
 }
 
 /*  CONTACT FORM */
+
 
 main h1 {
   color: #707070;
@@ -247,14 +241,29 @@ label {
   color: #ffff;
 }
 
-textarea,
 input {
-  background-color: #707070;
+  background-color: #e7e7e7;
   padding: 20px;
+  width: 500px;
+}
+
+textarea {
+  width: 460px;
+  background-color: #e7e7e7;
+  height: 200px;
 }
 
 #message {
   padding: 40px;
+  justify-content: center;
+}
+
+#send-btn {
+  width: 550px;
+}
+
+#send-btn:hover {
+   background: #f06332;
 }
 
 .contactform {
@@ -262,6 +271,11 @@ input {
   grid-template-columns: 500px;
   justify-content: center;
   grid-gap: 20px;
+}
+
+.form-error {
+  color: rgb(238, 91, 91);
+  font-size: 0.8rem;
 }
 
 /* footer */
@@ -272,6 +286,8 @@ footer {
   padding: 90px;
   margin: 10px;
 }
+
+
 
 @media (max-width: 700px) {
   /*  NAVIGATION */
@@ -316,7 +332,8 @@ footer {
   }
 
   .contactform {
-    grid-template-columns: 350px;
+    grid-template-columns: 150px;
+    justify-content: left;
   }
 }
 

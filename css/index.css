@@ -37,26 +37,14 @@ h2 {
   background-color: #404040;
 }
 
-/*.cta-small {
+.cta-small {
   text-transform: uppercase;
-  color: #000000;
   font-size: 0.8em;
   padding: 10px 30px;
   margin: 5px;
-  background-color: rgb(237, 237, 237);
   border-color: #ffff;
-  border: 0.5px solid;
-  text-align: center;
-} */
-
-.cta-game {
-  color: #ffffff;
-  padding: 10px 100px; 
-  /*position: relative;*/
-  left: 130px;
-  position: relative;
-  
   border: 1px solid;
+  text-align: center;
 }
 
 .cta-small-viewmore {
@@ -70,9 +58,8 @@ h2 {
   float: right;
 }
 
-.cta-game:hover {
-  background-color: #f06332;
-  border: #f06332;
+.cta-small:hover {
+  color: #f06332;
 }
 
 /* Navigation */
@@ -98,10 +85,10 @@ h2 {
 
 .main-nav-2 ul {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 0px;
   padding: 10px 5px 10px 5px;
   list-style: none;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4,70px);
 }
 
 .main-nav-2 a {
@@ -114,21 +101,21 @@ h2 {
   color: #f06332;
 }
 
-.logo {
-  cursor: pointer;
-  max-width: 110px;
-  grid-column: 2;
-  padding: 0;
-  margin: 0px 0px 0px 0px;
-  align-items: center;
-}
-
 .fa-bars {
   display: none;
 }
 
 #hamburger-menu {
   display: none;
+}
+
+.logo {
+  cursor: pointer;
+  max-width: 110px;
+  grid-column: 1;
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+  align-items: center;
 }
 
 .icons {
@@ -201,6 +188,25 @@ h2 {
   align-items: center;
 }
 
+
+.fa-chevron-left {
+  font-size: 2em;
+}
+
+.fa-search {
+  margin: 10px;
+}
+
+.back {
+  display: grid;
+  justify-content: left;
+  padding: 10px;
+}
+
+.back :hover {
+  color: #f06332;
+}
+
 .search {
   font-size: 1em;
   border: 0.5px solid;
@@ -241,7 +247,7 @@ h2 {
 .covergame {
   position: absolute;
   top: 400px;
-  left: 1000px;
+  left: 1300px;
   text-align: center;
 }
 
@@ -328,7 +334,7 @@ h2 {
 }
 
 
-.discover_cta-small {
+.discover-cta {
   color: #ffffff;
   padding: 20px 100px; 
   position: relative;
@@ -337,7 +343,7 @@ h2 {
   border: 1px solid;
 }
 
-.discover_cta-small:hover {
+.discover-cta:hover {
   background-color: #f06332;
   border: #f06332;
 }
