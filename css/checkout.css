@@ -188,40 +188,142 @@ h2 {
   align-items: center;
 }
 
-.search-btn {
+.search {
   font-size: 1em;
-  border: 1px solid;
+  border: 0.5px solid;
   border-color: #ffff;
-  border-radius: 50px;
+  border-radius: 0px;
   padding: 5px 40px;
-  margin: 0px 20px 30px 0px;
+  margin: 20px;  
 }
 
-.fa-chevron-left {
-  font-size: 2em;
+.search:hover{
+  background-color: #ffff;
+  opacity: 80%;
 }
 
 .fa-search {
   margin: 10px;
 }
 
-.back {
-  display: grid;
-  justify-content: left;
-  padding: 10px;
-}
-
-.back :hover {
-  color: #f06332;
-}
-
-.search {
+.back-search {
   display: grid;
   justify-content: right;
 }
 
 .back-search :hover {
-  color: #f06332;
+  color: #282828;
+}
+
+/* Cart */
+.cart {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 360px;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #F78E3B;
+  box-shadow: -2px 0 4px hsl(0, 4%, 15% / 10%);
+  border: 1px solid;
+  border-color: #F78E3B;
+  transition: 0.3s;
+}
+
+.cart.active {
+  right: 0;
+}
+
+.cart-title {
+text-align: center;
+font-size: 1.5rem;
+font-weight: 600;
+margin-top: 2rem;
+color: #000000;
+}
+
+.cart-box {
+  display: grid;
+  grid-template-columns: 32% 50% 18%;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem; 
+}
+
+.cart-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.detail-box {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.cart-production-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.cart-price {
+  font-weight: 500;
+}
+
+.cart-quantity {
+  border: 1px solid #282828;
+  outline-color: #282828;
+  width: 2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  border-top: 1px solid #282828;
+}
+
+.total-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.total-price {
+  margin-left: 0.5rem;
+}
+
+.btn-buy {
+  display: flex;
+  margin: 1.5rem auto 0 auto;
+  padding: 12px 20px;
+  border: none;
+  background: #404040;
+  color: #ffff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-buy:hover {
+
+  background: #b9b8b8;
+}
+
+.cart-remove {
+  color: #626262;
+  font-size:1rem;
+}
+
+.close-cart {
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  font-size: 1rem;
+  color: #000000;
+  cursor: pointer;
 }
 
 /* CHECK OUT CONTAINER */
