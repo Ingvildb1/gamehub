@@ -649,7 +649,7 @@ footer {
 
 @media (max-width: 420px) {
   .main-nav-2 a {
-    font-size: 0.4em;
+    font-size: 0.8em;
   }
 
   .main-nav-1 {
@@ -679,6 +679,10 @@ footer {
 
   .logo {
     grid-column: 3;
+    width: 100%;
+    padding: 0px 10px;
+    margin: 10px 0px 0px 30px;
+    width: 70px;
   }
 
   .container_textheader {

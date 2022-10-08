@@ -50,7 +50,7 @@ document.getElementsByClassName('btn-buy')[0].addEventListener('click', buyButto
 
 // Buy Button
 function buyButtonClicked() {
-    alert('Your order is placed');
+    alert('Thank you! Your order is placed');
     var cartContent = document.getElementsByClassName('cart-content')[0];
     while (cartContent.hasChildNodes()){
         cartContent.removeChild(cartContent.firstChild);

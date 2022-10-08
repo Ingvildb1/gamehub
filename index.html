@@ -39,7 +39,6 @@
         </section>
         
          <section class="menu">
-            <div class="nav-res">
             <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
             <input type="checkbox" id="hamburger-menu">
             <nav class="main-nav-1">
@@ -49,7 +48,7 @@
                 <li> <a href="#">Sell</a></li>
             </ul>
             </nav>
-            </div>
+           
 
         <a href="index.html"><img class="logo" src="images/gamehub-logo.png" alt="Game Hub logo" class="logo"></a>
         
@@ -64,16 +63,41 @@
                 <i class="fas fa-shopping-bag addtocart"></i>  
            </div>
         </section>
-    </header>
+    
+
+    <!-- cart -->
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+   
+   <!-- cart - content -->
+   <div class="cart-content">
+   </div>
+
+   <!--Total -->
+   <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">0kr</div>
+   </div>
+   <!--Buy button-->
+   <button type="button" class="btn-buy">Buy Now</button>
+   <!-- Cart Close-->
+   <i class="fa-light fa-circle-xmark close-cart"></i>
+
+
+</div>
+</header>
+
+<!--link to Js-->
+<script src="js/gamesaddtocart.js"></script>
         
         <main>
         <!-- Top Container -->
         <section class="top-container">
-            <header class="covergame">
+            <div class="covergame">
                 <h1>Game 8</h1>
                 <p>Lorem ipsum dolor sit amet.</p>
                 <a href="gamepage.html" class="cta-big">Learn More</a>
-            </header>
+            </div>
         </section>
        
     
@@ -83,30 +107,24 @@
      <section class="hot-now">  
         <h2>Hot now</h2>
         <div class="hot-now_products">
-            <div class="product-box">
-           <a href="gamepage.html"> <img src="images/Game-image-1.jpg" alt="Game 1 image"></a>
-           <i class="fas fa-shopping-bag addtocart btn-picture"></i> 
-            </div> 
-           <a href="gamepage.html" class="product-name">Game 1</a>
-            <p>299 nok</p>
+           <a href="gamepage.html"> <img src="images/Game-image-1.jpg" alt="Game 1 image" class="product-img"></a>
+           <i class="fas fa-shopping-bag addproduct-tocart btn-picture"></i> 
+           <a href="gamepage.html" class="product-name product-title">Game 1</a>
+            <p class="product-price">299 nok</p>
         
         </div>
         <div class="hot-now_products">
-            <div class="product-box">
-            <a href="gamepage.html"><img src="images/Game-image-2.jpg" alt="Game 2 image"></a>
-            <i class="fas fa-shopping-bag addtocart btn-picture"></i> 
-            </div>
-            <a href="gamepage.html" class="product-name">Game 2</a>
-            <p>299 nok</p>
+            <a href="gamepage.html"><img src="images/Game-image-2.jpg" alt="Game 2 image" class="product-img"></a>
+            <i class="fas fa-shopping-bag addproduct-tocart btn-picture"></i> 
+            <a href="gamepage.html" class="product-name product-title">Game 2</a>
+            <p class="product-price">299 nok</p>
             
         </div>
         <div class="hot-now_products">
-            <div class="product-box">
-            <a href="gamepage.html"><img src="images/Game-image-3.jpg" alt="Game 3 image"></a>
-            <i class="fas fa-shopping-bag addtocart btn-picture"></i> 
-            </div>
-            <a href="gamepage.html" class="product-name">Game 3</a>
-            <p>299 nok</p>
+            <a href="gamepage.html"><img src="images/Game-image-3.jpg" alt="Game 3 image" class="product-img"></a>
+            <i class="fas fa-shopping-bag addproduct-tocart btn-picture"></i> 
+            <a href="gamepage.html" class="product-name product-title">Game 3</a>
+            <p class="product-price">299 nok</p>
             
         </div>
      </section>
@@ -129,36 +147,28 @@
         <h2>News</h2>
        <div class="news_boxes"> 
             <div class="news_products">
-                <div class="product-box">
-                <a href="gamepage.html"><img src="images/Game-image-1.jpg" alt="Game 1 image"/></a>
-                <i class="fas fa-shopping-bag addtocart btn-picture"></i> 
-                </div>
-                <a href="gamepage.html" class="product-name">Game 1</a>
-                <p>299 nok</p>
+                <a href="gamepage.html"><img src="images/Game-image-1.jpg" alt="Game 1 image" class="product-img"/></a>
+                <i class="fas fa-shopping-bag addproduct-tocart btn-picture"></i> 
+                <a href="gamepage.html" class="product-name product-title">Game 1</a>
+                <p class="product-price">299 nok</p>
             </div>
             <div class="news_products">
-                <div class="product-box">
-                <a href="gamepage.html"><img src="images/Game-image-2.jpg" alt="Game 2 image"/></a>
-                <i class="fas fa-shopping-bag addtocart btn-picture"></i> 
-                </div>
-                <a href="gamepage.html" class="product-name">Game 1</a>
-                <p>299 nok</p>
+                <a href="gamepage.html"><img src="images/Game-image-2.jpg" alt="Game 2 image" class="product-img"/></a>
+                <i class="fas fa-shopping-bag addproduct-tocart btn-picture"></i> 
+                <a href="gamepage.html" class="product-name product-title">Game 1</a>
+                <p class="product-price">299 nok</p>
             </div>
             <div class="news_products">
-                <div class="product-box">
-                <a href="gamepage.html"><img src="images/Game-image-3.jpg" alt="Game 3 image"/></a>
-                <i class="fas fa-shopping-bag addtocart btn-picture"></i> 
-                </div>
-                <a href="gamepage.html" class="product-name">Game 1</a>
-                <p>299 nok</p>
+                <a href="gamepage.html"><img src="images/Game-image-3.jpg" alt="Game 3 image" class="product-img"/></a>
+                <i class="fas fa-shopping-bag addproduct-tocart btn-picture"></i> 
+                <a href="gamepage.html" class="product-name product-title">Game 1</a>
+                <p class="product-price">299 nok</p>
             </div>
             <div class="news_products">
-                <div class="product-box">
-                <a href="gamepage.html"><img src="images/Game-image-1.jpg" alt="Game 1 image"/></a>
-                <i class="fas fa-shopping-bag addtocart btn-picture"></i> 
-                </div>
-                <a href="gamepage.html" class="product-name">Game 1</a>
-                <p>299 nok</p>
+                <a href="gamepage.html"><img src="images/Game-image-1.jpg" alt="Game 1 image" class="product-img"/></a>
+                <i class="fas fa-shopping-bag addproduct-tocart btn-picture"></i> 
+                <a href="gamepage.html" class="product-name product-title">Game 1</a>
+                <p class="product-price">299 nok</p>
             </div>
     </div>
     </section>
@@ -168,28 +178,22 @@
         <h2>Pre-purchase</h2>
         <div class="boxes_pre-purchase">
             <div class="pre-purchase_products">
-                <div class="product-box">
-                <img src="images/Game-image-1.jpg" alt="Game 1 image"/>
-                <i class="fas fa-shopping-bag addtocart btn-picture"></i> 
-                </div>
-                <a href="gamepage.html" class="product-name">Game 1</a>
-                <p>299 nok</p>
+                <img src="images/Game-image-1.jpg" alt="Game 1 image" class="product-img"/>
+                <i class="fas fa-shopping-bag addproduct-tocart btn-picture"></i> 
+                <a href="gamepage.html" class="product-name product-title">Game 1</a>
+                <p class="product-price">299 nok</p>
             </div>
             <div class="pre-purchase_products">
-                <div class="product-box">
-                <img src="images/Game-image-2.jpg" alt="Game 2 image"/>
-                <i class="fas fa-shopping-bag addtocart btn-picture"></i> 
-                </div>
-                <a href="gamepage.html" class="product-name">Game 2</a>
-                <p>299 nok</p>
+                <img src="images/Game-image-2.jpg" alt="Game 2 image" class="product-img"/>
+                <i class="fas fa-shopping-bag addproduct-tocart btn-picture"></i> 
+                <a href="gamepage.html" class="product-name product-title">Game 2</a>
+                <p class="product-price">299 nok</p>
             </div>
             <div class="pre-purchase_products">
-                <div class="product-box">
-                <img src="images/Game-image-3.jpg" alt="Game 3 image"/>
-                <i class="fas fa-shopping-bag addtocart btn-picture"></i> 
-                </div>
-                <a href="gamepage.html" class="product-name">Game 3</a>
-                <p>299 nok</p>
+                <img src="images/Game-image-3.jpg" alt="Game 3 image" class="product-img"/>
+                <i class="fas fa-shopping-bag addproduct-tocart btn-picture"></i> 
+                <a href="gamepage.html" class="product-name product-title">Game 3</a>
+                <p class="product-price">299 nok</p>
             </div>
         </div>
     </section>
@@ -197,7 +201,7 @@
     <section class="sell">
         <h2>Sell your finished game</h2>
     <div class="sell-container">
-            <img src="images/Game-image-1.jpg" alt="Game 1 image"/>
+            <img src="images/Game-image-1.jpg" alt="Game 1 image" />
         </div>  
          <div class="sell_gametext">
             <p class="game-header">Computer Game 1</p>
