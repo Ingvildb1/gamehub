@@ -565,13 +565,17 @@ footer {
     grid-column: 1;
     padding: 20px 10px;
   }
+
+  .about-game {
+    width: 400px;
+  }
 }
 
 @media (max-width: 700px) {
   /*  NAVIGATION */
 
   .main-nav-2 a {
-    font-size: 10px;
+    font-size: 1em;
   }
 
   .main-nav-1 {
@@ -601,6 +605,7 @@ footer {
 
   .logo {
     grid-column: 3;
+    padding: 0px 0px;
   }
 
   /*  TOP CONTAINER */
@@ -686,5 +691,9 @@ footer {
 
   .wrapper {
     grid-gap: 0px;
+  }
+
+  .about-game {
+    width: 300px;
   }
 }
