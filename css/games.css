@@ -586,6 +586,10 @@ footer {
     display: none;
   }
 
+  .cart{
+    right: -120%;
+   }
+
   #hamburger-menu:checked ~ .main-nav-1 {
     display: block;
   }
