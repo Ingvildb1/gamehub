@@ -191,9 +191,9 @@ h2 {
 }
 
 .search {
-  font-size: 1em;
+  font-size: 0.9em;
   border: 0.5px solid;
-  border-color: #ffff;
+  border-color: rgb(181, 181, 181);
   border-radius: 0px;
   padding: 5px 70px;
   margin: 20px;  
