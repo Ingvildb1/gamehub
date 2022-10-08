@@ -730,10 +730,10 @@ footer {
   }
 
   .covergame {
-    position: absolute;
+    position: relative;
     top: 160px;
     right: 0%;
-    text-align: center;
+    text-align: left;
   }
 
   .top-container h1 {
@@ -742,10 +742,15 @@ footer {
     background-color: #b9b8b8;
     color: #282828;
     justify-items: center;
+    text-align: center;
   }
 
   .top-container p {
     display: none;
+  }
+
+  .cta-big {
+    font-size: 0.7em;
   }
 
   /* HOT NOW  */
@@ -784,8 +789,13 @@ footer {
 }
 
 @media (max-width: 420px) {
+ body {
+  max-width: 420px;
+ }
 
-
+ .cart{
+  right: -120%;
+ }
   .main-nav-2 a {
     font-size: 0.8em;
   }
