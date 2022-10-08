@@ -283,6 +283,10 @@ textarea {
   margin: 10px;
 }
 
+.messageSubmitted {
+  color: #e7e7e7;
+}
+
 /* footer */
 footer {
   color: #ffff;
@@ -426,5 +430,6 @@ footer {
 
   #send-btn {
     width: 200px;
+    color: #282828;
   }
 }
