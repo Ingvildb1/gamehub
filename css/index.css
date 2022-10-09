@@ -375,7 +375,7 @@ color: #000000;
   text-align: center;
 }
 
-.top-container h1 {
+.top-container h2 {
   font-size: 2em;
   padding: 10px;
   width: 400px;
@@ -736,7 +736,7 @@ footer {
     text-align: left;
   }
 
-  .top-container h1 {
+  .top-container h2 {
     font-size: 1em;
     width: 150px;
     background-color: #b9b8b8;
