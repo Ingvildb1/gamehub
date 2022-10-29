@@ -1,0 +1,25 @@
+body {
+    background-color:darkgray;
+}
+
+.products {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 200px);
+    padding: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+    
+  }
+
+  .products img {
+    width: 100%;
+  }
+
+  h2 {
+    color: black;
+  }
+
+  h1 {
+    text-align: center;
+  }

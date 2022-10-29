@@ -1,0 +1,15 @@
+body {
+    background-color: darkgray;
+}
+
+.products {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1fr);
+    padding: 40px;
+    margin: 20px;
+  }
+
+  .products img {
+    width: 50%;
+  }
