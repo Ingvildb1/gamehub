@@ -13,3 +13,9 @@ body {
   .products img {
     width: 50%;
   }
+
+  h2 {
+    padding: 20px;
+    font-size: 1em;
+    text-align: center;
+  }
