@@ -9,7 +9,7 @@ if (!id) {
     document.location.href ="/";
 }
 
-const baseUrl = "http://localhost/cms-task2-1/wp-json/wc/store/products/" + id;
+const baseUrl = "https://flowerpowersite1.shop/gamehub/wp-json/wc/store/products/" + id;
 
 
 async function getProducts(url){
